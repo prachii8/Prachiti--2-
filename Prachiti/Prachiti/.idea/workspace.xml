@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="378492d8-02fa-41c2-b91e-ba2f09cbb5af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/RRR/static/img/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RRR/RRR/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RRR/RRR/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RRR/ratings.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RRR/ratings.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RRR/restaurant.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RRR/restaurant.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RRR/static/css/radiobutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/RRR/static/css/radiobutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RRR/static/img/vector-creator.png" beforeDir="false" afterPath="$PROJECT_DIR$/RRR/static/img/vector-creator.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RRR/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/RRR/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RRR/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/RRR/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RRR/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/RRR/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RRR/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/RRR/templates/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RRR/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/RRR/templates/signup.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2W3TKbt1LNUioBaOExYLuAbkMhV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\komar\OneDrive\Desktop\Realtime-Restaurant-Recommendation\RRR\static\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="378492d8-02fa-41c2-b91e-ba2f09cbb5af" name="Changes" comment="" />
+      <created>1695960200716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695960200716</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

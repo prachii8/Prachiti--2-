@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Recommendations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Recommendations</h1>
+    </header>
+
+    <div class="container">
+        {% if error_message %}
+        <p>{{ error_message }}</p>
+        {% else %}
+        <section>
+            <h2>Recommended Restaurants:</h2>
+            <ul>
+                {% for restaurant in recommended_restaurants %}
+                <li>
+                    <strong>{{ restaurant.name }}</strong><br>
+                    <em>Location:</em> {{ restaurant.location }}<br>
+                    <em>Cuisines:</em> {{ restaurant.cuisines }}<br>
+                    <em>Rating:</em> {{ restaurant.Dining_rate }}
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        <section>
+            <form method="post" action="{% url 'recommend_restaurants' %}">
+                {% csrf_token %}
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="cuisines">Cuisines (comma-separated):</label>
+                <input type="text" id="cuisines" name="cuisines" required>
+
+                <label for="Dining_rate">Minimum Rating:</label>
+                <input type="text" id="Dining_rate" name="Dining_rate" placeholder="Enter a number">
+
+                <input type="submit" value="Recommend Restaurants">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
