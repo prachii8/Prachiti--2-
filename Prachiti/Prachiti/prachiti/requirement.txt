@@ -1,0 +1,4 @@
+pip install django
+pip install scikit-learn
+python manage.py migrate
+python manage.py runserver
